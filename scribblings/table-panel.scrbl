@@ -19,7 +19,7 @@ http://schemecookbook.org/Cookbook/SimpleGridLayout
 
 Everything in this library is exported by a single module:
 
-@defmodule[(planet williams/table-panel/table-panel)]
+@defmodule[table-panel]
 
 @table-of-contents[]
 
@@ -123,7 +123,7 @@ racket/gui
 (code:comment " table panels anddemonstrates some column and row stretch-")
 (code:comment " ability options.")
 
-(require (planet williams/table-panel/table-panel))
+(require table-panel)
 
 (code:comment " The top-level frame")
 (define frame
