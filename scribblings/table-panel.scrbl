@@ -120,7 +120,7 @@ racket/gui
 
 (code:comment " Table panel example.")
 (code:comment " This example displays a table panel containing four more")
-(code:comment " table panels anddemonstrates some column and row stretch-")
+(code:comment " table panels and demonstrates some column and row stretch-")
 (code:comment " ability options.")
 
 (require table-panel)
