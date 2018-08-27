@@ -200,11 +200,11 @@
              (row-heights (make-vector n-rows 0))
              (column-stretchabilities?
               (make-vector n-columns
-                           (if (memq column-stretchability '(#t 'every))
+                           (if (memq column-stretchability '(#t every))
                                #t #f)))
              (row-stretchabilities?
               (make-vector n-rows
-                           (if (memq row-stretchability '(#t 'every))
+                           (if (memq row-stretchability '(#t every))
                                #t #f))))
         (for ((child-info (in-list info))
               (i (in-naturals)))
